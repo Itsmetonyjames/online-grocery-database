@@ -231,28 +231,28 @@ GO
 INSERT INTO [Order] (CustomerID, CityID, OrderDate, NumberOfItems,
                      OrderStatus, TotalAmount, OrderName)
 VALUES
--- 1–5
+-- 1Â–5
 (1, 1, '2025-03-01', 3, 'Completed', 480.00, 'Order #1 - Ravi'),
 (2, 2, '2025-03-02', 4, 'Completed', 398.00, 'Order #2 - Neha'),
 (3, 3, '2025-03-03', 5, 'Completed', 342.00, 'Order #3 - Arjun'),
 (4, 4, '2025-03-04', 3, 'Completed', 700.00, 'Order #4 - Priya'),
 (5, 1, '2025-03-05', 4, 'Completed', 148.00, 'Order #5 - Sanjay'),
 
--- 6–10
+-- 6Â–10
 (6, 5, '2025-03-06', 3, 'Completed', 480.00, 'Order #6 - Aisha'),
 (7, 2, '2025-03-07', 4, 'Completed', 398.00, 'Order #7 - Vikram'),
 (8, 3, '2025-03-08', 5, 'Completed', 342.00, 'Order #8 - Meera'),
 (1, 1, '2025-03-09', 3, 'Completed', 700.00, 'Order #9 - Ravi'),
 (2, 2, '2025-03-10', 4, 'Completed', 148.00, 'Order #10 - Neha'),
 
--- 11–15
+-- 11Â–15
 (3, 3, '2025-03-11', 3, 'Completed', 480.00, 'Order #11 - Arjun'),
 (4, 4, '2025-03-12', 4, 'Completed', 398.00, 'Order #12 - Priya'),
 (5, 1, '2025-03-13', 5, 'Completed', 342.00, 'Order #13 - Sanjay'),
 (6, 5, '2025-03-14', 3, 'Completed', 700.00, 'Order #14 - Aisha'),
 (7, 2, '2025-03-15', 4, 'Completed', 148.00, 'Order #15 - Vikram'),
 
--- 16–20
+-- 16Â–20
 (8, 3, '2025-03-16', 3, 'Completed', 480.00, 'Order #16 - Meera'),
 (1, 1, '2025-03-17', 4, 'Pending',   398.00, 'Order #17 - Ravi (Pending)'),
 (2, 2, '2025-03-18', 5, 'Pending',   342.00, 'Order #18 - Neha (Pending)'),
@@ -264,7 +264,7 @@ GO
 
 INSERT INTO OrderItem (OrderID, ProductID, Quantity, UnitPrice)
 VALUES
--- T1 = 2×Potato + 1×Basmati Rice (Orders: 1,6,11,16)
+-- T1 = 2Ã—Potato + 1Ã—Basmati Rice (Orders: 1,6,11,16)
 (1, 1, 2, 30.00),   -- Potato
 (1, 4, 1, 420.00),
 
@@ -277,7 +277,7 @@ VALUES
 (16, 1, 2, 30.00),
 (16, 4, 1, 420.00),
 
--- T2 = 1×Onion + 1×Wheat Atta + 2×Namkeen (Orders: 2,7,12,17)
+-- T2 = 1Ã—Onion + 1Ã—Wheat Atta + 2Ã—Namkeen (Orders: 2,7,12,17)
 (2, 3, 1, 28.00),   -- Onion
 (2, 5, 1, 260.00),  -- Wheat Atta
 (2,10, 2, 55.00),   -- Namkeen
@@ -294,7 +294,7 @@ VALUES
 (17,5, 1, 260.00),
 (17,10,2, 55.00),
 
--- T3 = 3×Milk + 1×Paneer + 1×Masala Chai (Orders: 3,8,13,18)
+-- T3 = 3Ã—Milk + 1Ã—Paneer + 1Ã—Masala Chai (Orders: 3,8,13,18)
 (3, 8, 3, 54.00),   -- Milk
 (3, 7, 1, 85.00),   -- Paneer
 (3, 9, 1, 95.00),   -- Masala Chai
@@ -311,7 +311,7 @@ VALUES
 (18,7, 1, 85.00),
 (18,9, 1, 95.00),
 
--- T4 = 2×Toor Dal + 1×Basmati Rice (Orders: 4,9,14,19)
+-- T4 = 2Ã—Toor Dal + 1Ã—Basmati Rice (Orders: 4,9,14,19)
 (4, 6, 2, 140.00),  -- Toor Dal
 (4, 4, 1, 420.00),
 
@@ -324,7 +324,7 @@ VALUES
 (19,6, 2, 140.00),
 (19,4, 1, 420.00),
 
--- T5 = 1×Potato + 1×Tomato + 1×Onion + 1×Namkeen (Orders: 5,10,15,20)
+-- T5 = 1Ã—Potato + 1Ã—Tomato + 1Ã—Onion + 1Ã—Namkeen (Orders: 5,10,15,20)
 (5, 1, 1, 30.00),   -- Potato
 (5, 2, 1, 35.00),   -- Tomato
 (5, 3, 1, 28.00),   -- Onion
